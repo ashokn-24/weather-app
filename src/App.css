@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+scroll-snap-type: y mandatory;
+scroll-behavior: smooth;
+
+}
+
+body {
+
+  background-color: hsl(203.79, 90.63%, 12.55%);
+}
+
+section{
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+footer {
+  scroll-snap-align: end;
+}
+
+.weather-display-container{
+  text-align: center;
+}
+
+footer{
+    background: rgba(255, 251, 251, 0.1);
+    backdrop-filter: blur(30px);  
+}
+
+footer h5{
+    color: #99CFE7;    
+}
+
+footer a{
+  text-decoration: none;
+  color: #ffffff;
+}
